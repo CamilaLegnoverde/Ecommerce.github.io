@@ -1,0 +1,176 @@
+/*Heather*/
+header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#descuentos{
+    background-color: #1CD1B0;
+    height: 30px;
+    padding: 5px 1px;
+    font-weight: bold;
+}
+#titulo{
+    background-color: #00669F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#titulo h2{
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+}
+body{
+    margin: 1px;
+}
+/*Login form*/
+.form-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 6rem;
+    margin: 1rem;
+}
+.form-login label{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.form-login button{
+    border-radius: 8rem;
+    padding: 0.6rem 11rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #1CD1B0;
+}
+.form-login p{
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-login a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Registro form*/
+.form-registro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+#registro{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 6rem;
+    margin: 1rem;
+}
+#pais{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 9rem;
+    margin: 1rem;
+}
+.form-registro label{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.form-registro button[type="submit"]{
+    border-radius: 8rem;
+    padding: 0.6rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #1CD1B0;
+}
+.form-registro button[type="reset"]{
+    border-radius: 8rem;
+    padding: 0.6rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #888888;
+    color: white;
+}
+.form-registro p{
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-registro a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Icono contacto*/
+#ico-contacto a{
+    text-decoration: none;
+    color: #1CD1B0;
+}
+#ico-contacto {
+    font-size: 80px;
+    position: relative;
+    top: 40rem;
+}
+/*Contacto*/
+.form-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 6rem;
+    margin: 1rem;
+}
+.form-contacto textarea{
+    height: 120px;
+    width: 170px;
+}
+.form-contacto label{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.form-contacto button[type="submit"]{
+    border-radius: 8rem;
+    padding: 0.6rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #1CD1B0;
+}
+.form-contacto button[type="reset"]{
+    border-radius: 8rem;
+    padding: 0.6rem 4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #888888;
+    color: white;
+}
+.form-contacto a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Footer*/
+footer{
+    position: fixed;
+    width: 100%;
+    height: 3%;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0px;
+    background-color: #00669F;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
